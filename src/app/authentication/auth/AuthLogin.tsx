@@ -124,13 +124,14 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => {
             </Typography>
           </Stack> */}
         </Stack>
-        <Box>
+        <Box mt={4} className="mt-4">
           <Button
             color="primary"
             variant="contained"
             size="large"
             fullWidth
             type="submit"
+            
           >
             Iniciar Sesión
           </Button>
