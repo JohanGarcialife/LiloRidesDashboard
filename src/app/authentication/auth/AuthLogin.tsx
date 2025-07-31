@@ -99,7 +99,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => {
               placeholder="Contraseña"
             />
           </Box>
-          <Stack
+          {/* <Stack
             justifyContent="space-between"
             direction="row"
             alignItems="center"
@@ -122,7 +122,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => {
             >
               ¿Olvidaste tu contraseña?
             </Typography>
-          </Stack>
+          </Stack> */}
         </Stack>
         <Box>
           <Button
