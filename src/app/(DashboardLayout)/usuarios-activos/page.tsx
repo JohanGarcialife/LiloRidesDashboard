@@ -2,17 +2,18 @@
 import { Typography } from '@mui/material';
 import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
 import DashboardCard from '@/app/(DashboardLayout)/components/shared/DashboardCard';
+import TablaUsuarios from './_components/TablaUsuarios';
 
 
-const SamplePage = () => {
+const UsuariosActivos = () => {
   return (
-    <PageContainer title="Sample Page" description="this is Sample page">
-      <DashboardCard title="Sample Page">
-        <Typography>This is a sample page</Typography>
-      </DashboardCard>
+    <PageContainer title="Usuarios Activos" description="Lista de Usuarios Activos">
+      
+        <TablaUsuarios />
+      
     </PageContainer>
   );
 };
 
-export default SamplePage;
+export default UsuariosActivos;
 

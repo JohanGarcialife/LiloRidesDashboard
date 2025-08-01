@@ -46,7 +46,7 @@ const Menuitems = [
     id: uniqueId(),
     title: "Activos",
     icon: IconUser,
-    href: "/Passengers",
+    href: "/usuarios-activos",
   },
   {
     id: uniqueId(),
