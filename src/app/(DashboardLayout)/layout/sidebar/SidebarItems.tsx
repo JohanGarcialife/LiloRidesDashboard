@@ -74,10 +74,10 @@ const SidebarItems = () => {
 
   return (
     < >
-      <MUI_Sidebar width={"100%"} showProfile={false} themeColor={"#5D87FF"} themeSecondaryColor={'#49beff'} >
+      <MUI_Sidebar  width={"100%"} showProfile={false} themeColor={"#5D87FF"} themeSecondaryColor={'#49beff'} >
 
-        {/* <Logo  img='/images/logos/Logo.png' component={Link} to="/" /> */}
-<div className="flex !m-6 p-6">
+        
+<Box display="flex" alignItems="center" justifyContent="center" sx={{ mx: 4, mb: 2, mt: 2 }}>
 
 <Image
       src="/images/logos/Logo.png"
@@ -86,7 +86,7 @@ const SidebarItems = () => {
       alt="Logo"
       
     />
-</div>
+</Box>
         {renderMenuItems(Menuitems, pathDirect)}
         
       </MUI_Sidebar>
